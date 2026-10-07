@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ | SKフロンティア株式会社</title>
+<meta name="description" content="SKフロンティア株式会社へのお問い合わせページです。AI実務活用研修についてお気軽にご相談ください。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="gold-bar"></div>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="logo-mark.png" alt="SK Frontier" class="brand-mark">
+      <span class="brand-text"><strong>SKフロンティア</strong><span>AI TRAINING PARTNER</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">HOME</a>
+      <a href="company.html">会社概要</a>
+      <a href="training.html">研修プラン</a>
+      <a href="contact.html" class="is-active">お問い合わせ</a>
+      <a href="contact.html" class="nav-cta">無料相談する</a>
+    </nav>
+    <button class="nav-toggle" aria-label="メニューを開く"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">HOME</a> ／ お問い合わせ</div>
+    <h1>お問い合わせ</h1>
+    <p>研修プラン詳細・お見積りについてのご相談は、以下のフォームまたはメールにて承っております。</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="align-items:flex-start;">
+      <div>
+        <div class="section-head">
+          <span class="eyebrow">Contact Form</span>
+          <h2 style="margin-top:14px;">お問い合わせフォーム</h2>
+          <p>下記項目をご入力のうえ送信してください。担当者より折り返しご連絡いたします。</p>
+        </div>
+        <form id="contact-form" class="card" style="padding:32px;">
+          <div style="display:grid;gap:20px;">
+            <label style="font-size:13px;font-weight:700;color:var(--navy-900);">
+              会社名<span style="color:var(--red-500);">*</span>
+              <input required type="text" style="width:100%;margin-top:8px;padding:13px 14px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit;">
+            </label>
+            <label style="font-size:13px;font-weight:700;color:var(--navy-900);">
+              ご担当者名<span style="color:var(--red-500);">*</span>
+              <input required type="text" style="width:100%;margin-top:8px;padding:13px 14px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit;">
+            </label>
+            <label style="font-size:13px;font-weight:700;color:var(--navy-900);">
+              メールアドレス<span style="color:var(--red-500);">*</span>
+              <input required type="email" style="width:100%;margin-top:8px;padding:13px 14px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit;">
+            </label>
+            <label style="font-size:13px;font-weight:700;color:var(--navy-900);">
+              お問い合わせ内容<span style="color:var(--red-500);">*</span>
+              <textarea required rows="5" style="width:100%;margin-top:8px;padding:13px 14px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit;resize:vertical;"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary" style="border:none;cursor:pointer;justify-content:center;">送信する</button>
+            <p id="contact-form-status" class="notice-box" role="status" hidden style="margin:0;">この試作版フォームは送信機能が未実装のため、入力内容は送信されていません。お手数ですが、右記のメールアドレスまでご連絡ください。</p>
+          </div>
+        </form>
+      </div>
+
+      <div>
+        <div class="section-head">
+          <span class="eyebrow">Other Contact</span>
+          <h2 style="margin-top:14px;">その他のお問い合わせ方法</h2>
+        </div>
+        <div class="card" style="margin-bottom:20px;">
+          <div class="card-body">
+            <span class="card-num">MAIL</span>
+            <h3>メールでのお問い合わせ</h3>
+            <p><a href="mailto:s.kodama336@gmail.com" style="color:var(--navy-900);font-weight:700;">s.kodama336@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="card" style="margin-bottom:20px;">
+          <div class="card-body">
+            <span class="card-num">SAMPLE MOVIE</span>
+            <h3>無料サンプル動画</h3>
+            <p>研修動画のサンプルをご覧いただけます。</p>
+            <a href="https://reskilling.share-wis.com/snack_courses/ai-course-sample" class="card-link" target="_blank" rel="noopener">無料サンプル動画を見る</a>
+          </div>
+        </div>
+        <div class="notice-box">
+          このフォームは試作版のため送信機能は未実装です。公開時は送信先メールアドレスの設定、または問い合わせフォームサービスとの連携をお願いします。
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="logo-mark.png" alt="SK Frontier" class="brand-mark">
+          <span class="brand-text"><strong style="color:#fff;">SKフロンティア</strong><span>AI TRAINING PARTNER</span></span>
+        </a>
+        <p>ChatGPT・生成AIを実務でそのまま使いこなす力を育てる、AI実務活用研修を提供しています。</p>
+      </div>
+      <div class="footer-col">
+        <h5>MENU</h5>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="training.html">研修プラン</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>CONTACT</h5>
+        <ul>
+          <li>SKフロンティア株式会社</li>
+          <li><a href="contact.html">お問い合わせフォーム</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© SK Frontier Co., Ltd. All Rights Reserved.</span>
+      <span>本サイトは制作中の試作版です。</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
