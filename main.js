@@ -28,16 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Contact form (prototype: nothing is sent, so say so on the page)
-  var form = document.getElementById('contact-form');
-  var status = document.getElementById('contact-form-status');
-  if (form && status) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      status.hidden = false;
-    });
-  }
-
   // Header shadow on scroll
   var header = document.querySelector('.site-header');
   if (header) {
